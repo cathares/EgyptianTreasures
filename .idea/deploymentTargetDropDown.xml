@@ -2,16 +2,19 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
+      <entry key="GameScreenPreview">
+        <State />
+      </entry>
       <entry key="MainActivity">
         <State />
       </entry>
       <entry key="MyPreview">
         <State />
       </entry>
-      <entry key="app">
+      <entry key="MyPreview (1)">
         <State />
       </entry>
-      <entry key="myPreview">
+      <entry key="app">
         <State />
       </entry>
     </value>

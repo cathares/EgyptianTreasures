@@ -1,4 +1,4 @@
-package com.example.egyptiantreasures.ui.theme
+package com.cathares.egyptiantreasures.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -25,7 +25,7 @@ private val LightColorScheme = lightColorScheme(
     primary = Purple40,
     secondary = PurpleGrey40,
     tertiary = Pink40,
-    background = BlueMain
+    background = BackgroundBlue
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
     surface = Color(0xFFFFFBFE),
