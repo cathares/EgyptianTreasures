@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">EgyptianTreasures</string>
+    <string name="app_name"></string>
     <string name="settings">Settings</string>
     <string name="combinations">Combinations</string>
     <string name="faq">FAQ</string>
     <string name="menu"> </string>
+    <string name="game"> </string>
+    <string name="privacy"> </string>
 </resources>

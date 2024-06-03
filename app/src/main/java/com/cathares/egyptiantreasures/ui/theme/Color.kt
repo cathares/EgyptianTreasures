@@ -1,4 +1,4 @@
-package com.example.egyptiantreasures.ui.theme
+package com.cathares.egyptiantreasures.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
@@ -10,5 +10,9 @@ val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
-val BlueMain = Color(0xFF242959)
+val BackgroundBlue = Color(0xFF242959)
 val White = Color(0xFFFFFFFF)
+val ButtonRed = Color(0xFFD24545)
+val ButtonBlue = Color(0xFF3F49A4)
+val BlueMain = Color(0xFF242959)
+val DarkYellow = Color(0xFFFFC700)

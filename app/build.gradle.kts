@@ -1,14 +1,24 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
 }
 
+tasks{
+    withType<KotlinCompile> {
+        kotlinOptions {
+            freeCompilerArgs += listOf("-Xskip-prerelease-check")
+        }
+    }
+}
+
 android {
-    namespace = "com.example.egyptiantreasures"
+    namespace = "com.cathares.egyptiantreasures"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.egyptiantreasures"
+        applicationId = "com.cathares.egyptiantreasures"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -66,4 +76,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.navigation.compose)
+    implementation (libs.cloudy)
+    implementation(libs.core.ktx)
+    implementation (libs.kotlinx.serialization.json)
 }
